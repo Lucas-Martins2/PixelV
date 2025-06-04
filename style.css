@@ -251,7 +251,9 @@ header .container-grid {
 
 #servicos .card:hover svg{
     fill: var(--Verde-pixelv);
-}#servicos{
+}
+
+#servicos{
     margin-bottom: 120px;
 }
 
@@ -279,4 +281,28 @@ header .container-grid {
     background-color: #F2F2F2;
     box-shadow: 0 4px 8px 0px rgba(0, 0, 0, 0.2);
     text-align: center;
+}
+
+/* ----------------- Cases de Sucesso ---------------------------- */
+
+#cases h2{
+    margin-right: 5px;
+}
+
+#cases{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 120px;
+}
+
+#cases img{
+    height: 300px;
+    border-radius: 40px;
+}
+
+#meuCarrosel{
+    max-width: 1170px;
+    width: 90%;
 }
